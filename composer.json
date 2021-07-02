@@ -1,0 +1,15 @@
+{
+    "name": "diego/icatalogo-mvc",
+    "autoload": {
+        "psr-4": {
+            "Diego\\IcatalogoMvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego Lopes",
+            "email": "dl604291@gmail.com"
+        }
+    ],
+    "require": {}
+}

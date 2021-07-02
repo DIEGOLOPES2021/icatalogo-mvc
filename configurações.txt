@@ -1,0 +1,9 @@
+<VirtualHost *:80>
+    ServerAdmin diego@mvc.icatalogo.com.br
+    DocumentRoot "C:\xampp\htdocs\diego\icatalogo-MVC"
+    ServerName mvc.icatalogo.com.br
+    ErrorLog "logs/mvc.icatalogo.com.br-error.log"
+    CustomLog "logs/mvc.icatalogo.com.br-access.log" common
+</VirtualHost>
+
+127.0.0.1   mvc.icatalogo.com.br

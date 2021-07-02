@@ -1,0 +1,40 @@
+-- LER --
+
+// O comando
+$sql = "comando slq";
+// A consulta
+$resultado = $conexão->prepare($sql);
+// A execução do comando
+$resultado->execute();
+// Mostragem do dados consultados
+$resultado->fetchAll(PDO::FETCH_estilo da lista);
+
+-- INSERÇÃO --
+// O comando
+$sql = "comando slq";
+// A consulta
+$resultado = $conexão->prepare($sql);
+// Caso o sql tenha a inserção com :nomeDoAtributo
+$resultado->bindValues() -- ou bindParams();
+// A execução do comando
+$resultado->execute();
+
+-- ATUALIZÃO --
+// O comando
+$sql = "comando slq";
+// A consulta
+$resultado = $conexão->prepare($sql);
+// Caso o sql tenha a inserção com :nomeDoAtributo
+$resultado->bindValues(:campo, valor) -- ou bindParams();
+// A execução do comando
+$resultado->execute();
+
+-- DELEÇÃO --
+// O comando
+$sql = "comando slq";
+// A consulta
+$resultado = $conexão->prepare($sql);
+// Caso o sql tenha a inserção com :nomeDoAtributo
+$resultado->bindValues(:campo, valor) -- ou bindParams();
+// A execução do comando
+$resultado->execute();
